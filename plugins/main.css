@@ -1,0 +1,71 @@
+* {box-sizing: border-box;}
+body { text-align: center; margin:0; padding:0; font-family: "Helvetica Neue","Helvetica",Arial,"文泉驛正黑","WenQuanYi Zen Hei","Hiragino Sans GB","儷黑 Pro","LiHei Pro","Heiti TC","微軟正黑體","Microsoft JhengHei UI","Microsoft JhengHei",sans-serif; }
+.head { text-align: center; margin:auto; background:url('img/head.jpg') center center repeat-x; height:114px; }
+.time { text-align: center; margin:auto; background:url('img/time.jpg') center center no-repeat; height:60px; width: 1200px; }
+.banner { text-align: center; margin:auto; background:url('img/banner.jpg') center center no-repeat; height:230px; width: 1200px; }
+#content { margin:auto; width: 1200px; position: relative; }
+#content .nav { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+#content .nav>div { background: #414142; color: #c3c3c3; height: 64px; cursor: pointer; }
+#content .nav>div.active { background: #ee4d2d; color: #fff; }
+#content .nav>div .txt1 { font-size:1.5em; padding-top:6px; }
+#content .nav2 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
+#content .nav2>div { height:50px; color: rgba(0,0,0,.8); text-decoration: none; display: flex; justify-content: center; align-items: center; cursor: pointer; border-bottom:3px solid transparent; }
+#content .nav2>div svg { width: .6em; height: .6em; }
+#content .nav2>div.active { color: #ee4d2d; border-color: #ee4d2d; }
+#shop_block { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; text-align: center; }
+#shop_block img { width: 291px; }
+#shop_block>a { cursor:pointer; display: block; }
+.hoverOutline:hover { outline: 1px slateblue dashed; }
+.hoverOutline { cursor: pointer; }
+#more { display: absolute; position: absolute; right:0; display: none; }
+#more div { width:172px; height:50px; color: rgba(0,0,0,.8); text-decoration: none; display: flex; justify-content: center; align-items: center; cursor: pointer; border-bottom:3px solid transparent; background-color:white; }
+.pages { display: none; margin:auto; }
+.routerLink { text-decoration: none; cursor: pointer; }
+.pages02 { background-color:#F5F5F5; }
+#shopDetailTop { text-align: center; background-color:#F5F5F5; }
+#p2Seller { text-align: center; background-color:#F5F5F5; padding:20px 0; }
+#p2part3 { text-align: center; background-color:#F5F5F5; }
+#p2part3 img { width: 1200px; }
+.page03 { background-color:#F5F5F5; }
+.page03 .body { width: 1200px; margin:auto; }
+.page03 .body .left { float: left; width: 190px; }
+.page03 .body .left img { width: 100%; }
+.page03 .body .right { float: left; }
+.page03 .body .content { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+.page03 .body .content img { width: 192px; }
+.page03 .body .content>a { display: block; text-align: center; }
+.page03 svg { width: 12px; }
+.clear { clear:both; }
+.page04 { background-color: rgb(241, 80, 0); }
+.page04 .body { width: 1200px; margin:auto; }
+.page04 .body .logo img { width: 100%; }
+.page04 .body .paper { text-align: center; background:url('img/p4paper.png') center center no-repeat; height:395px; position: relative; }
+.page04 .body .paper .txtGroup { font-size:40px; }
+.page04 .body .paper .txtGroup h1 { color: rgb(33, 33, 33); font-size:40px; font-weight: 500; position: absolute; top: 107px; left: 389px; }
+.page04 .body .paper .txtGroup p { position: absolute; top: 199px; font-size: 28px; left: 389px; }
+.page04 .body .paper .button { background: rgba(0,0,0,.09); color: rgba(0,0,0,.26); cursor: pointer; width:200px; height:77px; font-size:40px; text-align: center; font-family: 微軟正黑體; position: absolute; left: 932px; top:164px; display: inline-block; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; line-height: 32px; }
+.page04 .body .paper .button.get { background-color: rgb(238, 77, 45); color: rgb(255, 255, 255); line-height: 70px; }
+.page04 .body .paper .button span { font-size:32px; }
+.page04 .body .paper .button a { font-size:22px; cursor: pointer; color: #2673dd; }
+.page04 .body .paper .explain { color: #2673dd; font-size:32px; cursor: pointer; position: absolute; top: 292px; left: 1005px; }
+.page05 .body { width: 1200px; margin:auto; }
+.page05 .body .left { width: 180px; float:left; padding-top:20px; }
+.page05 .body .right { width: 993px; margin-left:27px; float:left; position: relative; padding-top:20px; }
+.page05 .body .right .p5paper { width: 450px; height: 118px; background: url('img/p5paper.png') center center no-repeat; position: absolute; left:27px; top:377px; line-height: 60px; padding-left: 14px; }
+.page05 .body .right .p5paper+.p5paper { left:506px; }
+.page05 .body .right .p5paper+.p5paper+.p5paper { left:27px; top:516px; }
+.page05 .body .right .p5paper+.p5paper+.p5paper+.p5paper { left:506px; top:516px; }
+.page06 .body { width: 1200px; margin:auto; }
+.page06 .body .left { width: 180px; float:left; padding-top:20px; }
+.page06 .body .right { width: 993px; height: 500px; margin-left:27px; float:left; position: relative; padding-left:30px; padding-top:20px; background-color:#FFF; }
+.page06 .body .right .top { -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; border-bottom: 1px solid #efefef; padding: 22px 0; height: 80px; -moz-box-sizing: border-box; box-sizing: border-box; text-align:left; }
+.page06 .body .right .top .title { font-size: 1.125rem; font-weight: 500; line-height: 1.5rem; color: #333; text-transform: capitalize; }
+.page06 .body .right .top .subtitle { font-size: .875rem; line-height: 1.0625rem; color: #555; margin-top: 3px; }
+.page06 .body .right .input_group { padding-top: 2.5rem; width: 43.75rem; margin: 0 auto; text-align:left; font-size: .875rem; }
+.page06 .body .right .input_group label { color: rgba(85,85,85,.8); padding-right: 1.25rem; }
+.page06 .body .right .input_group input { height: 40px; padding: 10px; border-radius: 2px; border: 1px solid rgba(0,0,0,.7); width: 280px; }
+.page06 .body .right .input_group .error { color: #ff424f; position: absolute; left: 268px; display:none; }
+.page06 .body .right .input_group .success { color: green; position: absolute; left: 268px; display:none; }
+.page06 .body .right .submit_button { background: #f05d40; width: 9.375rem; font-size: .875rem; display: flex; align-items: center; justify-content: center; color:#FFF; width: 150px; height: 40px; border-radius: 2px; cursor: pointer; margin-top:50px; margin-left: 238px; }
+.bg241 { background-color: rgb(241, 80, 0); }
+.bgF5 { background-color: #F5F5F5; }
