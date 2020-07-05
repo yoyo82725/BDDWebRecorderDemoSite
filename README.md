@@ -11,3 +11,6 @@
 
 訂閱電子報相關頁面
 ![Alt text](/demoSitePic/page06.JPG "page6")
+
+## License
+APACHE LICENSE 2.0
