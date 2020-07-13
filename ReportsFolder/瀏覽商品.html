@@ -1,0 +1,118 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>瀏覽商品.html</title>
+                <link rel="stylesheet"
+                    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" />
+                <link rel="stylesheet" href="https://orz4.netlify.com/bdd.css" />
+                
+            </head>
+            <body>
+            
+                            <!-- report here -->
+                            <!-- part 1 table -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card bg-light">
+                                        <div class="card-header text-center">Test Summary Report</div>
+                                        <div class="card-body">
+                                            <div class="table-responsive">
+                                                <table class="table-hover table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="fit-content-column">Status</th>
+                                                            <th class="">Name</th>
+                                                            <th class="">Started</th>
+                                                            <th class="">Duration</th>
+                                                            <th class="">Result</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="p1Tbody"></tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- part 1 table END -->
+                            <!-- part 2 BDD -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card bg-light">
+                                        <div class="card-header text-center">BDD Test Report</div>
+                                        <div class="card-body">
+                                            <div id="gherkin_report"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- part 2 BDD END -->
+                            <!-- part 2.5 BDD URL CALL -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card bg-light">
+                                        <div class="card-header text-center">BDD/API-Call Mapping</div>
+                                        <div class="card-body">
+                                            <div id="gherkinUrlCall_report">
+                                                <div id="gherkinUrlCall_tableContainer" class="module_content file-container table-responsive">
+                                                    <!-- <table>
+                                                            <colgroup>
+                                                                <col width="50%">
+                                                                <col width="50%">
+                                                            </colgroup>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Name</th>
+                                                                    <th>Time</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>8| Given 使用者在首頁</td>
+                                                                    <td>1589354094774</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- part 2.5 BDD URL CALL END -->
+                            <!-- part 3 API調用報告 Calls -->
+                            <div id="api_report">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card bg-light">
+                                            <div class="card-header text-center">API State Transition</div>
+                                            <div class="card-body">
+                                                <div id="status"><table class="table table-striped">
+	<thead><tr><th>Request</th><th>Method</th><th>Number of calls</th><th>Average response time</th></tr></thead>
+	<tbody></tbody>
+	</table></div>
+                                                <div id="vis"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!-- API CALL PATH -->
+                                        <div id="graph_data" class="grid"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 第三部分 API調用報告 END -->
+                            
+                        
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+            </body>
+            </html>
+            
